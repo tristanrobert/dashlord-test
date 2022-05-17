@@ -1,6 +1,7 @@
 title: DashLord example
 description: Bonnes pratiques techniques
 entity: MTE-MCT
+loginUrl: https://mtes-mct.github.io/dashlord-test
 footer: Powered by SocialGouv/BetaGouv
 marianne: true
 tools:
