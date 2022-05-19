@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: init
-        uses: "SocialGouv/dashlord-actions/init@main"
+        uses: "SocialGouv/dashlord-actions/init@tristanrobert/issue136"
         with:
           url: ${{ github.event.inputs.url }}
 
