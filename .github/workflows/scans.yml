@@ -119,6 +119,10 @@ jobs:
           docker_name: "owasp/zap2docker-stable"
           target: "${{ matrix.sites.url }}"
           cmd_options: "-a"
+      
+      - name: subpages
+        run: |
+          echp "${{ matrix.sites.subpages }}"
 
       - name: Lighthouse scan
         continue-on-error: true
