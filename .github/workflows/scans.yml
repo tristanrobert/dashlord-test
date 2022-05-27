@@ -122,7 +122,7 @@ jobs:
       
       - name: subpages
         run: |
-          echp "${{ matrix.sites.subpages }}"
+          echo "${{ fromJson(matrix.sites.subpages) }}"
 
       - name: Lighthouse scan
         continue-on-error: true
