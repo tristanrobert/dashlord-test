@@ -119,10 +119,6 @@ jobs:
           docker_name: "owasp/zap2docker-stable"
           target: "${{ matrix.sites.url }}"
           cmd_options: "-a"
-      
-      - name: subpages
-        run: |
-          echo "${{ matrix.sites.subpages }}"
 
       - name: Lighthouse scan
         continue-on-error: true
@@ -130,7 +126,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v7
         if: ${{ matrix.sites.tools.lighthouse }}
         with:
-          urls: "${{ matrix.sites.subpages }}"
+          urls: "${{ join(matrix.sites.subpages, "\n") }}"
           uploadArtifacts: false
           temporaryPublicStorage: false
           configPath: "./lighthouserc.json"
