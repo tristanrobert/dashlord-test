@@ -293,77 +293,77 @@
     "testssl": [
       {
         "id": "service",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "HTTP"
       },
       {
         "id": "pre_128cipher",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No 128 cipher limit bug"
       },
       {
         "id": "SSLv2",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "SSLv3",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "TLS1",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_1",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_2",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "TLS1_3",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "offered with final"
       },
       {
         "id": "ALPN_HTTP2",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "h2"
       },
       {
         "id": "ALPN",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "http/1.1"
       },
       {
         "id": "cipherlist_NULL",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -371,7 +371,7 @@
       },
       {
         "id": "cipherlist_aNULL",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -379,7 +379,7 @@
       },
       {
         "id": "cipherlist_EXPORT",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -387,7 +387,7 @@
       },
       {
         "id": "cipherlist_LOW",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -395,7 +395,7 @@
       },
       {
         "id": "cipherlist_3DES_IDEA",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-310",
@@ -403,7 +403,7 @@
       },
       {
         "id": "cipherlist_AVERAGE",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "LOW",
         "cwe": "CWE-310",
@@ -411,525 +411,525 @@
       },
       {
         "id": "cipherlist_GOOD",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "cipherlist_STRONG",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "cipherorder_TLSv1_2",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "cipher_order",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "server"
       },
       {
         "id": "protocol_negotiated",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "Default protocol TLS1.3"
       },
       {
         "id": "cipher_negotiated",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "TLS_AES_256_GCM_SHA384, 253 bit ECDH (X25519)"
       },
       {
         "id": "FS",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "FS_ciphers",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
       },
       {
         "id": "FS_ECDHE_curves",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "prime256v1 secp384r1 secp521r1"
       },
       {
         "id": "TLS_extensions",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'next protocol/#13172' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
       },
       {
         "id": "TLS_session_ticket",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "valid for 300 seconds only (<daily)"
       },
       {
         "id": "SSL_sessionID_support",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "yes"
       },
       {
         "id": "sessionresumption_ticket",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "not supported"
       },
       {
         "id": "sessionresumption_ID",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "not supported"
       },
       {
         "id": "TLS_timestamp",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "random"
       },
       {
         "id": "certificate_compression",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "clientAuth",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "cert_numbers",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "1"
       },
       {
         "id": "cert_signatureAlgorithm",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "SHA256 with RSA"
       },
       {
         "id": "cert_keySize",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "RSA 2048 bits (exponent is 65537)"
       },
       {
         "id": "cert_keyUsage",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "Digital Signature, Key Encipherment"
       },
       {
         "id": "cert_extKeyUsage",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
       },
       {
         "id": "cert_serialNumber",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "0467A77B2D5F102BDF0C9CA6EA2224573C33"
       },
       {
         "id": "cert_serialNumberLen",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "18"
       },
       {
         "id": "cert_fingerprintSHA1",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "0B7806D3EEC28BA465A0FFD50E1879E22FA7E38A"
       },
       {
         "id": "cert_fingerprintSHA256",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "7639C7958E8E4DEDCEE45F83FC564A0B8CE88C2548A83C235BBA01D4AAADC4F3"
       },
       {
         "id": "cert",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE----- MIIFLDCCBBSgAwIBAgISBGeney1fECvfDJym6iIkVzwzMA0GCSqGSIb3DQEBCwUA MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD EwJSMzAeFw0yMjA1MTAxMjM0MThaFw0yMjA4MDgxMjM0MTdaMB8xHTAbBgNVBAMT FHd3dy5kb3NzaWVyZmFjaWxlLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB CgKCAQEAtdnMhEyfRSEiAUmP9ZL4VvmEg/TwVs7J7VnhyA70S8m+0HFJ2ubiq2cK y8hTxlIoewTx4u6dJCZEhKSfHVTypfugA/AlWnZ0cl3ChP7QB5iVQmEPzSbuVioU dcsH7TgmoJ4P8adUJEylRR0b8MmvY1VCLHoCuAFxIY09ki197OykPNxuCJ/c2XWD oGiZdCa1g5rx97F7XX3b8vyDr61/B933yo0mAl/VcTWdsRjkcvXvGMspnR2AMIlf lqLk2a9F5GlUJ9KZjBwh1IX59C/ZmMB1Ffwv0N0ZF9p0Tr3HeiQPLNgzsw42H8fX HgPLdX9JdRuRDS8PczTrGZguZol6wQIDAQABo4ICTTCCAkkwDgYDVR0PAQH/BAQD AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAA MB0GA1UdDgQWBBTV8dImboXdnJdF3Gn6b8QSBkXWkzAfBgNVHSMEGDAWgBQULrMX t1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0 dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVu Y3Iub3JnLzAfBgNVHREEGDAWghR3d3cuZG9zc2llcmZhY2lsZS5mcjBMBgNVHSAE RTBDMAgGBmeBDAECATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRw Oi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCCAQIGCisGAQQB1nkCBAIEgfMEgfAA7gB1 ACl5vvCeOTkh8FZzn2Old+W+V32cYAr4+U1dJlwlXceEAAABgK4tfewAAAQDAEYw RAIgffa3YKG5WLjkvnPvAdnKvPfZs7ewmj1X3oJZGN7+6XYCIAol/LWYoP5KOjX7 pCnRr3Kpksn36RRa1AEiTBLGDiYpAHUAb1N2rDHwMRnYmQCkURX/dxUcEdkCwQAp Bo2yCJo32RMAAAGAri1/SAAABAMARjBEAiAgUgqyWt2RfZNWG1G1qoPsUvlWYf9D DjR35Ap76ZhxeAIgHPjgutCBu3LzmPgn6031EI7FhhE3rGUIkbqSX/ayW2gwDQYJ KoZIhvcNAQELBQADggEBAKYSFH/mIzQl5RAEs2MOIASKev2lt2RjLt1LOElLx793 12Lxl4JKKQdHt7+Tz484nNyun9CjDfcKHi3bygd1TwW5r5XGl7k5V2J986QjC30g MOVb/I+I6+fpYqZQ3YyZZCgPCC3CR+UQxtB5SpWMf2jbfUttVYdy0V9wzkQyQQZT LrHSKDT4Tow7qkxzhl0govYs/MH04AQZWl59Ymbi/FZeHGe4fZSAElxLqNyh5cDc 7dHqvyJZY5HzB7Qmz1wrZl89RYa0oTJOFdCfrPBNzVDT2jN/1E4/d+fTEgKeOIYo /E7K32F98EIsrTZp/NSKnOPjdNO128XG6NCslhcOs5w= -----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "www.dossierfacile.fr"
       },
       {
         "id": "cert_commonName_wo_SNI",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "*.osc-fr1.scalingo.io"
       },
       {
         "id": "cert_subjectAltName",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "www.dossierfacile.fr"
       },
       {
         "id": "cert_trust",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
         "id": "cert_chain_of_trust",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "passed."
       },
       {
         "id": "cert_certificatePolicies_EV",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_expirationStatus",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "72 >= 30 days"
       },
       {
         "id": "cert_notBefore",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "2022-05-10 12:34"
       },
       {
         "id": "cert_notAfter",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "2022-08-08 12:34"
       },
       {
         "id": "cert_extlifeSpan",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "certificate has no extended life time according to browser forum"
       },
       {
         "id": "cert_eTLS",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "not present"
       },
       {
         "id": "cert_crlDistributionPoints",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "cert_ocspURL",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "http://r3.o.lencr.org"
       },
       {
         "id": "OCSP_stapling",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "LOW",
         "finding": "not offered"
       },
       {
         "id": "cert_mustStapleExtension",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "DNS_CAArecord",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "LOW",
         "finding": "--"
       },
       {
         "id": "certificate_transparency",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "yes (certificate extension)"
       },
       {
         "id": "certs_countServer",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "3"
       },
       {
         "id": "certs_list_ordering_problem",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_caIssuers",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "R3 (Let's Encrypt from US)"
       },
       {
         "id": "intermediate_cert <#1>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE----- MIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw WhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg RW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK AoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP R5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx sxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm NHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg Z3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG /kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC AYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB Af8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA FHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw AoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw Oi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB gt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W PTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl ikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz CkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm lJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4 avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2 yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O yK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids hCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+ HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv MldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX nLRbwHOoq7hHwg== -----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "67ADD1166B020AE61B8F5FC96813C04C2AA589960796865572A3C7E737613DFD"
       },
       {
         "id": "intermediate_cert_notBefore <#1>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "2020-09-04 00:00"
       },
       {
         "id": "intermediate_cert_notAfter <#1>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "2025-09-15 16:00"
       },
       {
         "id": "intermediate_cert_expiration <#1>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#1>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "R3 <-- ISRG Root X1"
       },
       {
         "id": "intermediate_cert <#2>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE----- MIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/ MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMT DkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1ow TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB AQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XC ov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpL wYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+D LtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK 4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5 bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5y sR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZ Xmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4 FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBc SLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2ql PRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TND TwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYw SwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1 c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx +tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEB ATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQu b3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9E U1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26Ztu MA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC 5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW 9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuG WCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9O he8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFC Dfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5 -----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#2>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "6D99FB265EB1C5B3744765FCBC648F3CD8E1BFFAFDC4C2F99B9D47CF7FF1C24F"
       },
       {
         "id": "intermediate_cert_notBefore <#2>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "2021-01-20 19:14"
       },
       {
         "id": "intermediate_cert_notAfter <#2>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "2024-09-30 18:14"
       },
       {
         "id": "intermediate_cert_expiration <#2>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#2>",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "ISRG Root X1 <-- DST Root CA X3"
       },
       {
         "id": "intermediate_cert_badOCSP",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
         "id": "HTTP_status_code",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "200 OK ('/')"
       },
       {
         "id": "HTTP_clock_skew",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
-        "finding": "1653670173"
+        "finding": "1653721790"
       },
       {
         "id": "HSTS_time",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "365 days (=31536000 seconds) > 15552000 seconds"
       },
       {
         "id": "HSTS_subdomains",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "only for this domain"
       },
       {
         "id": "HSTS_preload",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "domain is NOT marked for preloading"
       },
       {
         "id": "HPKP",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No support for HTTP Public Key Pinning"
       },
       {
         "id": "banner_server",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No Server banner line in header, interesting!"
       },
       {
         "id": "banner_application",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "X-Powered-By: Express"
       },
       {
         "id": "cookie_count",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "0 at '/'"
       },
       {
         "id": "X-Frame-Options",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "deny"
       },
       {
         "id": "X-Content-Type-Options",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "nosniff"
       },
       {
         "id": "Content-Security-Policy",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "default-src 'none'; script-src 'self' *.dossierfacile.fr https://www.google-analytics.com https://www.googletagmanager.com *.inspectlet.com https://beacon-v2.helpscout.net ; style-src 'self' 'unsafe-inline' fonts.googleapis.com ; img-src 'self' https://www.google-analytics.com *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src 'none'; prefetch-src 'self'; connect-src https://www.google-analytics.com *.inspectlet.com wss://ws.inspectlet.com https://stats.g.doubleclick.net https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr"
       },
       {
         "id": "Cache-Control",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "public, max-age=0"
       },
       {
         "id": "banner_reverseproxy",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-200",
@@ -937,7 +937,7 @@
       },
       {
         "id": "heartbleed",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0160",
@@ -946,7 +946,7 @@
       },
       {
         "id": "CCS",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0224",
@@ -955,7 +955,7 @@
       },
       {
         "id": "ticketbleed",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-9244",
@@ -964,7 +964,7 @@
       },
       {
         "id": "ROBOT",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
@@ -973,7 +973,7 @@
       },
       {
         "id": "secure_renego",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-310",
@@ -981,7 +981,7 @@
       },
       {
         "id": "secure_client_renego",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-1473",
@@ -990,7 +990,7 @@
       },
       {
         "id": "CRIME_TLS",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2012-4929",
@@ -999,7 +999,7 @@
       },
       {
         "id": "BREACH",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "MEDIUM",
         "cve": "CVE-2013-3587",
@@ -1008,7 +1008,7 @@
       },
       {
         "id": "POODLE_SSL",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-3566",
@@ -1017,14 +1017,14 @@
       },
       {
         "id": "fallback_SCSV",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "no protocol below TLS 1.2 offered"
       },
       {
         "id": "SWEET32",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-2183 CVE-2016-6329",
@@ -1033,7 +1033,7 @@
       },
       {
         "id": "FREAK",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-0204",
@@ -1042,7 +1042,7 @@
       },
       {
         "id": "DROWN",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-0800 CVE-2016-0703",
@@ -1051,7 +1051,7 @@
       },
       {
         "id": "DROWN_hint",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "cve": "CVE-2016-0800 CVE-2016-0703",
@@ -1060,7 +1060,7 @@
       },
       {
         "id": "LOGJAM",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -1069,7 +1069,7 @@
       },
       {
         "id": "LOGJAM-common_primes",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -1078,7 +1078,7 @@
       },
       {
         "id": "BEAST",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-3389",
@@ -1087,7 +1087,7 @@
       },
       {
         "id": "LUCKY13",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "LOW",
         "cve": "CVE-2013-0169",
@@ -1096,7 +1096,7 @@
       },
       {
         "id": "winshock",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-6321",
@@ -1105,7 +1105,7 @@
       },
       {
         "id": "RC4",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-2566 CVE-2015-2808",
@@ -1114,399 +1114,399 @@
       },
       {
         "id": "clientsimulation-android_442",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-android_500",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_60",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_70",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-android_81",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-android_90",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-android_X",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-chrome_74_win10",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-chrome_79_win10",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-firefox_66_win81",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-firefox_71_win10",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-ie_6_xp",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_8_win7",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_8_xp",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win7",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-ie_11_win81",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-ie_11_winphone81",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win10",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-edge_15_win10",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-edge_17_win10",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-opera_66_win10",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-safari_9_ios9",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-safari_9_osx1011",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-safari_10_osx1012",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-safari_121_ios_122",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-safari_130_osx_10146",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-apple_ats_9_ios9",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-java_6u45",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-java_7u25",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-java_8u161",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-java1102",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-java1201",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-openssl_102e",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-openssl_110l",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-openssl_111d",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-thunderbird_68_3_1",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "rating_spec",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
       },
       {
         "id": "rating_doc",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
       },
       {
         "id": "protocol_support_score",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "100"
       },
       {
         "id": "protocol_support_score_weighted",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "30"
       },
       {
         "id": "key_exchange_score",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "90"
       },
       {
         "id": "key_exchange_score_weighted",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "27"
       },
       {
         "id": "cipher_strength_score",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "60"
       },
       {
         "id": "cipher_strength_score_weighted",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "24"
       },
       {
         "id": "final_score",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
         "finding": "81"
       },
       {
         "id": "overall_grade",
-        "ip": "www.dossierfacile.fr/5.104.101.30",
+        "ip": "www.dossierfacile.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "A+"
       },
       {
         "id": "service",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "HTTP"
       },
       {
         "id": "pre_128cipher",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No 128 cipher limit bug"
       },
       {
         "id": "SSLv2",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "SSLv3",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "TLS1",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_1",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_2",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "TLS1_3",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "offered with final"
       },
       {
         "id": "ALPN_HTTP2",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "h2"
       },
       {
         "id": "ALPN",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "http/1.1"
       },
       {
         "id": "cipherlist_NULL",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -1514,7 +1514,7 @@
       },
       {
         "id": "cipherlist_aNULL",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -1522,7 +1522,7 @@
       },
       {
         "id": "cipherlist_EXPORT",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -1530,7 +1530,7 @@
       },
       {
         "id": "cipherlist_LOW",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -1538,7 +1538,7 @@
       },
       {
         "id": "cipherlist_3DES_IDEA",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-310",
@@ -1546,7 +1546,7 @@
       },
       {
         "id": "cipherlist_AVERAGE",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "LOW",
         "cwe": "CWE-310",
@@ -1554,525 +1554,525 @@
       },
       {
         "id": "cipherlist_GOOD",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "cipherlist_STRONG",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "cipherorder_TLSv1_2",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "cipher_order",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "server"
       },
       {
         "id": "protocol_negotiated",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "Default protocol TLS1.3"
       },
       {
         "id": "cipher_negotiated",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "TLS_AES_256_GCM_SHA384, 253 bit ECDH (X25519)"
       },
       {
         "id": "FS",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "FS_ciphers",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
       },
       {
         "id": "FS_ECDHE_curves",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "prime256v1 secp384r1 secp521r1"
       },
       {
         "id": "TLS_extensions",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'next protocol/#13172' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
       },
       {
         "id": "TLS_session_ticket",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "valid for 300 seconds only (<daily)"
       },
       {
         "id": "SSL_sessionID_support",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "yes"
       },
       {
         "id": "sessionresumption_ticket",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "not supported"
       },
       {
         "id": "sessionresumption_ID",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "not supported"
+        "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "random"
       },
       {
         "id": "certificate_compression",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "clientAuth",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "cert_numbers",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "1"
       },
       {
         "id": "cert_signatureAlgorithm",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "SHA256 with RSA"
       },
       {
         "id": "cert_keySize",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "RSA 2048 bits (exponent is 65537)"
       },
       {
         "id": "cert_keyUsage",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "Digital Signature, Key Encipherment"
       },
       {
         "id": "cert_extKeyUsage",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
       },
       {
         "id": "cert_serialNumber",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "0467A77B2D5F102BDF0C9CA6EA2224573C33"
       },
       {
         "id": "cert_serialNumberLen",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "18"
       },
       {
         "id": "cert_fingerprintSHA1",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "0B7806D3EEC28BA465A0FFD50E1879E22FA7E38A"
       },
       {
         "id": "cert_fingerprintSHA256",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "7639C7958E8E4DEDCEE45F83FC564A0B8CE88C2548A83C235BBA01D4AAADC4F3"
       },
       {
         "id": "cert",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE----- MIIFLDCCBBSgAwIBAgISBGeney1fECvfDJym6iIkVzwzMA0GCSqGSIb3DQEBCwUA MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD EwJSMzAeFw0yMjA1MTAxMjM0MThaFw0yMjA4MDgxMjM0MTdaMB8xHTAbBgNVBAMT FHd3dy5kb3NzaWVyZmFjaWxlLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB CgKCAQEAtdnMhEyfRSEiAUmP9ZL4VvmEg/TwVs7J7VnhyA70S8m+0HFJ2ubiq2cK y8hTxlIoewTx4u6dJCZEhKSfHVTypfugA/AlWnZ0cl3ChP7QB5iVQmEPzSbuVioU dcsH7TgmoJ4P8adUJEylRR0b8MmvY1VCLHoCuAFxIY09ki197OykPNxuCJ/c2XWD oGiZdCa1g5rx97F7XX3b8vyDr61/B933yo0mAl/VcTWdsRjkcvXvGMspnR2AMIlf lqLk2a9F5GlUJ9KZjBwh1IX59C/ZmMB1Ffwv0N0ZF9p0Tr3HeiQPLNgzsw42H8fX HgPLdX9JdRuRDS8PczTrGZguZol6wQIDAQABo4ICTTCCAkkwDgYDVR0PAQH/BAQD AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAA MB0GA1UdDgQWBBTV8dImboXdnJdF3Gn6b8QSBkXWkzAfBgNVHSMEGDAWgBQULrMX t1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0 dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVu Y3Iub3JnLzAfBgNVHREEGDAWghR3d3cuZG9zc2llcmZhY2lsZS5mcjBMBgNVHSAE RTBDMAgGBmeBDAECATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRw Oi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCCAQIGCisGAQQB1nkCBAIEgfMEgfAA7gB1 ACl5vvCeOTkh8FZzn2Old+W+V32cYAr4+U1dJlwlXceEAAABgK4tfewAAAQDAEYw RAIgffa3YKG5WLjkvnPvAdnKvPfZs7ewmj1X3oJZGN7+6XYCIAol/LWYoP5KOjX7 pCnRr3Kpksn36RRa1AEiTBLGDiYpAHUAb1N2rDHwMRnYmQCkURX/dxUcEdkCwQAp Bo2yCJo32RMAAAGAri1/SAAABAMARjBEAiAgUgqyWt2RfZNWG1G1qoPsUvlWYf9D DjR35Ap76ZhxeAIgHPjgutCBu3LzmPgn6031EI7FhhE3rGUIkbqSX/ayW2gwDQYJ KoZIhvcNAQELBQADggEBAKYSFH/mIzQl5RAEs2MOIASKev2lt2RjLt1LOElLx793 12Lxl4JKKQdHt7+Tz484nNyun9CjDfcKHi3bygd1TwW5r5XGl7k5V2J986QjC30g MOVb/I+I6+fpYqZQ3YyZZCgPCC3CR+UQxtB5SpWMf2jbfUttVYdy0V9wzkQyQQZT LrHSKDT4Tow7qkxzhl0govYs/MH04AQZWl59Ymbi/FZeHGe4fZSAElxLqNyh5cDc 7dHqvyJZY5HzB7Qmz1wrZl89RYa0oTJOFdCfrPBNzVDT2jN/1E4/d+fTEgKeOIYo /E7K32F98EIsrTZp/NSKnOPjdNO128XG6NCslhcOs5w= -----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "www.dossierfacile.fr"
       },
       {
         "id": "cert_commonName_wo_SNI",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "*.osc-fr1.scalingo.io"
       },
       {
         "id": "cert_subjectAltName",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "www.dossierfacile.fr"
       },
       {
         "id": "cert_trust",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
         "id": "cert_chain_of_trust",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "passed."
       },
       {
         "id": "cert_certificatePolicies_EV",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_expirationStatus",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "72 >= 30 days"
       },
       {
         "id": "cert_notBefore",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "2022-05-10 12:34"
       },
       {
         "id": "cert_notAfter",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "2022-08-08 12:34"
       },
       {
         "id": "cert_extlifeSpan",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "certificate has no extended life time according to browser forum"
       },
       {
         "id": "cert_eTLS",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "not present"
       },
       {
         "id": "cert_crlDistributionPoints",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "cert_ocspURL",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "http://r3.o.lencr.org"
       },
       {
         "id": "OCSP_stapling",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "LOW",
         "finding": "not offered"
       },
       {
         "id": "cert_mustStapleExtension",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "DNS_CAArecord",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "LOW",
         "finding": "--"
       },
       {
         "id": "certificate_transparency",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "yes (certificate extension)"
       },
       {
         "id": "certs_countServer",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "3"
       },
       {
         "id": "certs_list_ordering_problem",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_caIssuers",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "R3 (Let's Encrypt from US)"
       },
       {
         "id": "intermediate_cert <#1>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE----- MIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw WhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg RW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK AoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP R5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx sxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm NHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg Z3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG /kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC AYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB Af8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA FHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw AoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw Oi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB gt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W PTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl ikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz CkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm lJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4 avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2 yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O yK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids hCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+ HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv MldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX nLRbwHOoq7hHwg== -----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "67ADD1166B020AE61B8F5FC96813C04C2AA589960796865572A3C7E737613DFD"
       },
       {
         "id": "intermediate_cert_notBefore <#1>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "2020-09-04 00:00"
       },
       {
         "id": "intermediate_cert_notAfter <#1>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "2025-09-15 16:00"
       },
       {
         "id": "intermediate_cert_expiration <#1>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#1>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "R3 <-- ISRG Root X1"
       },
       {
         "id": "intermediate_cert <#2>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE----- MIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/ MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMT DkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1ow TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB AQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XC ov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpL wYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+D LtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK 4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5 bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5y sR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZ Xmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4 FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBc SLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2ql PRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TND TwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYw SwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1 c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx +tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEB ATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQu b3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9E U1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26Ztu MA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC 5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW 9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuG WCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9O he8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFC Dfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5 -----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#2>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "6D99FB265EB1C5B3744765FCBC648F3CD8E1BFFAFDC4C2F99B9D47CF7FF1C24F"
       },
       {
         "id": "intermediate_cert_notBefore <#2>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "2021-01-20 19:14"
       },
       {
         "id": "intermediate_cert_notAfter <#2>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "2024-09-30 18:14"
       },
       {
         "id": "intermediate_cert_expiration <#2>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#2>",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "ISRG Root X1 <-- DST Root CA X3"
       },
       {
         "id": "intermediate_cert_badOCSP",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
         "id": "HTTP_status_code",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "200 OK ('/')"
       },
       {
         "id": "HTTP_clock_skew",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "-1 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "1653670323"
+        "finding": "1653721883"
       },
       {
         "id": "HSTS_time",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "365 days (=31536000 seconds) > 15552000 seconds"
       },
       {
         "id": "HSTS_subdomains",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "only for this domain"
       },
       {
         "id": "HSTS_preload",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "domain is NOT marked for preloading"
       },
       {
         "id": "HPKP",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No support for HTTP Public Key Pinning"
       },
       {
         "id": "banner_server",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No Server banner line in header, interesting!"
       },
       {
         "id": "banner_application",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "X-Powered-By: Express"
       },
       {
         "id": "cookie_count",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "0 at '/'"
       },
       {
         "id": "X-Frame-Options",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "deny"
       },
       {
         "id": "X-Content-Type-Options",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "nosniff"
       },
       {
         "id": "Content-Security-Policy",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "default-src 'none'; script-src 'self' *.dossierfacile.fr https://www.google-analytics.com https://www.googletagmanager.com *.inspectlet.com https://beacon-v2.helpscout.net ; style-src 'self' 'unsafe-inline' fonts.googleapis.com ; img-src 'self' https://www.google-analytics.com *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src 'none'; prefetch-src 'self'; connect-src https://www.google-analytics.com *.inspectlet.com wss://ws.inspectlet.com https://stats.g.doubleclick.net https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr"
       },
       {
         "id": "Cache-Control",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "public, max-age=0"
       },
       {
         "id": "banner_reverseproxy",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-200",
@@ -2080,7 +2080,7 @@
       },
       {
         "id": "heartbleed",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0160",
@@ -2089,7 +2089,7 @@
       },
       {
         "id": "CCS",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0224",
@@ -2098,7 +2098,7 @@
       },
       {
         "id": "ticketbleed",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-9244",
@@ -2107,7 +2107,7 @@
       },
       {
         "id": "ROBOT",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
@@ -2116,7 +2116,7 @@
       },
       {
         "id": "secure_renego",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-310",
@@ -2124,7 +2124,7 @@
       },
       {
         "id": "secure_client_renego",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-1473",
@@ -2133,7 +2133,7 @@
       },
       {
         "id": "CRIME_TLS",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2012-4929",
@@ -2142,7 +2142,7 @@
       },
       {
         "id": "BREACH",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "MEDIUM",
         "cve": "CVE-2013-3587",
@@ -2151,7 +2151,7 @@
       },
       {
         "id": "POODLE_SSL",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-3566",
@@ -2160,14 +2160,14 @@
       },
       {
         "id": "fallback_SCSV",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "no protocol below TLS 1.2 offered"
       },
       {
         "id": "SWEET32",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-2183 CVE-2016-6329",
@@ -2176,7 +2176,7 @@
       },
       {
         "id": "FREAK",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-0204",
@@ -2185,7 +2185,7 @@
       },
       {
         "id": "DROWN",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-0800 CVE-2016-0703",
@@ -2194,7 +2194,7 @@
       },
       {
         "id": "DROWN_hint",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "cve": "CVE-2016-0800 CVE-2016-0703",
@@ -2203,7 +2203,7 @@
       },
       {
         "id": "LOGJAM",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -2212,7 +2212,7 @@
       },
       {
         "id": "LOGJAM-common_primes",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -2221,7 +2221,7 @@
       },
       {
         "id": "BEAST",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-3389",
@@ -2230,7 +2230,7 @@
       },
       {
         "id": "LUCKY13",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "LOW",
         "cve": "CVE-2013-0169",
@@ -2239,7 +2239,7 @@
       },
       {
         "id": "winshock",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-6321",
@@ -2248,7 +2248,7 @@
       },
       {
         "id": "RC4",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-2566 CVE-2015-2808",
@@ -2257,703 +2257,335 @@
       },
       {
         "id": "clientsimulation-android_442",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-android_500",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_60",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_70",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-android_81",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-android_90",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-android_X",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-chrome_74_win10",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-chrome_79_win10",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-firefox_66_win81",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-firefox_71_win10",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-ie_6_xp",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_8_win7",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_8_xp",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win7",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-ie_11_win81",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-ie_11_winphone81",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win10",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-edge_15_win10",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-edge_17_win10",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-opera_66_win10",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-safari_9_ios9",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-safari_9_osx1011",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-safari_10_osx1012",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-safari_121_ios_122",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-safari_130_osx_10146",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-apple_ats_9_ios9",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-java_6u45",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-java_7u25",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-java_8u161",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-java1102",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-java1201",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-openssl_102e",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-openssl_110l",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "clientsimulation-openssl_111d",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-thunderbird_68_3_1",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "rating_spec",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
       },
       {
         "id": "rating_doc",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
       },
       {
         "id": "protocol_support_score",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "100"
       },
       {
         "id": "protocol_support_score_weighted",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "30"
       },
       {
         "id": "key_exchange_score",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "90"
       },
       {
         "id": "key_exchange_score_weighted",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "27"
       },
       {
         "id": "cipher_strength_score",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "60"
       },
       {
         "id": "cipher_strength_score_weighted",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "24"
       },
       {
         "id": "final_score",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "81"
       },
       {
         "id": "overall_grade",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
         "finding": "A+"
       },
       {
         "id": "scanTime",
-        "ip": "www.dossierfacile.fr/109.232.236.90",
+        "ip": "www.dossierfacile.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "305"
+        "finding": "192"
       }
     ],
-    "thirdparties": {
-      "trackers": [
-        {
-          "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://beacon-v2.helpscout.net/"
-        },
-        {
-          "type": "unknown",
-          "url": "https://beacon-v2.helpscout.net/static/js/vendor.90fe6783.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://beacon-v2.helpscout.net/static/js/main.e62f983e.js"
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/materialiconsoutlined/v104/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "google fonts",
-          "url": "https://fonts.gstatic.com/s/materialicons/v129/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
-          "details": {
-            "id": "google fonts",
-            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-          }
-        },
-        {
-          "type": "cloudfront",
-          "url": "https://d3hb14vkzrxvla.cloudfront.net/v1/e9f4da7d-11be-4b40-9514-ac7ce3e68f67",
-          "details": {
-            "id": "cloudfront",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "cloudfront",
-          "url": "https://d3hb14vkzrxvla.cloudfront.net/v1/e9f4da7d-11be-4b40-9514-ac7ce3e68f67",
-          "details": {
-            "id": "cloudfront",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "unknown",
-          "url": "https://beacon-v2.helpscout.net/static/js/vendor.90fe6783.js"
-        },
-        {
-          "type": "unknown",
-          "url": "https://beacon-v2.helpscout.net/static/js/main.e62f983e.js"
-        }
-      ],
-      "cookies": [
-        {
-          "name": "lang",
-          "value": "fr",
-          "domain": ".dossierfacile.fr",
-          "path": "/",
-          "expires": 1685206093,
-          "size": 6,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameSite": "Lax",
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        }
-      ],
-      "headers": {
-        "date": "Fri, 27 May 2022 16:48:12 GMT",
-        "content-type": "text/html; charset=UTF-8",
-        "x-request-id": "fed038bd-582e-4d55-b74f-c5c7a7ae4700",
-        "strict-transport-security": "max-age=31536000",
-        "x-powered-by": "Express",
-        "content-security-policy": "default-src 'none'; script-src 'self' *.dossierfacile.fr https://www.google-analytics.com https://www.googletagmanager.com *.inspectlet.com https://beacon-v2.helpscout.net ; style-src 'self' 'unsafe-inline' fonts.googleapis.com ; img-src 'self' https://www.google-analytics.com *.helpscout.net *.cloudfront.net *.gitbook.com data:; font-src 'self' fonts.gstatic.com fonts.google.com fonts.googleapis.com data:; object-src 'none'; prefetch-src 'self'; connect-src https://www.google-analytics.com *.inspectlet.com wss://ws.inspectlet.com https://stats.g.doubleclick.net https://sheets.googleapis.com *.helpscout.net wss://ws-helpscout.pusher.com https://sockjs-helpscout.pusher.com *.cloudfront.net *.dossierfacile.fr",
-        "x-frame-options": "deny",
-        "x-content-type-options": "nosniff",
-        "cache-control": "public, max-age=0",
-        "last-modified": "Mon, 23 May 2022 12:49:16 GMT",
-        "etag": "W/\"142f6-180f0f6ece0\"",
-        "content-encoding": "gzip"
-      },
-      "endpoints": [
-        {
-          "hostname": "www.dossierfacile.fr",
-          "ip": "5.104.101.30",
-          "geoip": {
-            "continent": {
-              "code": "EU",
-              "geoname_id": 6255148,
-              "names": {
-                "de": "Europa",
-                "en": "Europe",
-                "es": "Europa",
-                "fr": "Europe",
-                "ja": "ヨーロッパ",
-                "pt-BR": "Europa",
-                "ru": "Европа",
-                "zh-CN": "欧洲"
-              }
-            },
-            "country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 500,
-              "latitude": 48.8582,
-              "longitude": 2.3387,
-              "time_zone": "Europe/Paris"
-            },
-            "registered_country": {
-              "geoname_id": 3017382,
-              "is_in_european_union": true,
-              "iso_code": "FR",
-              "names": {
-                "de": "Frankreich",
-                "en": "France",
-                "es": "Francia",
-                "fr": "France",
-                "ja": "フランス共和国",
-                "pt-BR": "França",
-                "ru": "Франция",
-                "zh-CN": "法国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.googleapis.com",
-          "ip": "142.250.191.42",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "beacon-v2.helpscout.net",
-          "ip": "108.138.246.113",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "fonts.gstatic.com",
-          "ip": "142.250.188.3",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "d3hb14vkzrxvla.cloudfront.net",
-          "ip": "108.139.0.162",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        }
-      ]
-    },
+    "thirdparties": null,
     "wappalyzer": {
       "urls": {
         "https://www.dossierfacile.fr/": {
@@ -2994,6 +2626,22 @@
           ]
         },
         {
+          "slug": "amazon-web-services",
+          "name": "Amazon Web Services",
+          "confidence": 100,
+          "version": null,
+          "icon": "aws.svg",
+          "website": "https://aws.amazon.com/",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 62,
+              "slug": "paas",
+              "name": "PaaS"
+            }
+          ]
+        },
+        {
           "slug": "express",
           "name": "Express",
           "confidence": 100,
@@ -3011,22 +2659,6 @@
               "id": 22,
               "slug": "web-servers",
               "name": "Web servers"
-            }
-          ]
-        },
-        {
-          "slug": "amazon-web-services",
-          "name": "Amazon Web Services",
-          "confidence": 100,
-          "version": null,
-          "icon": "aws.svg",
-          "website": "https://aws.amazon.com/",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 62,
-              "slug": "paas",
-              "name": "PaaS"
             }
           ]
         },
@@ -3156,7 +2788,7 @@
     },
     "zap": {
       "@version": "2.11.1",
-      "@generated": "Fri, 27 May 2022 16:47:09",
+      "@generated": "Sat, 28 May 2022 06:58:14",
       "site": [
         {
           "@name": "https://www.dossierfacile.fr",
@@ -3275,12 +2907,37 @@
           "reference": null,
           "severity": "info"
         },
+        "matcher-name": "vue.js",
+        "type": "http",
+        "host": "https://www.dossierfacile.fr",
+        "matched-at": "https://www.dossierfacile.fr",
+        "ip": "109.232.236.90",
+        "timestamp": "2022-05-28T07:13:57.923006772Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.dossierfacile.fr'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "technologies/tech-detect.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
+        "template-id": "tech-detect",
+        "info": {
+          "name": "Wappalyzer Technology Detection",
+          "author": [
+            "hakluke"
+          ],
+          "tags": [
+            "tech"
+          ],
+          "reference": null,
+          "severity": "info"
+        },
         "matcher-name": "google-font-api",
         "type": "http",
         "host": "https://www.dossierfacile.fr",
         "matched-at": "https://www.dossierfacile.fr",
-        "ip": "5.104.101.30",
-        "timestamp": "2022-05-27T16:55:41.803150221Z",
+        "ip": "109.232.236.90",
+        "timestamp": "2022-05-28T07:13:57.92402399Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.dossierfacile.fr'",
         "matcher-status": true,
         "matched-line": null
@@ -3304,33 +2961,8 @@
         "type": "http",
         "host": "https://www.dossierfacile.fr",
         "matched-at": "https://www.dossierfacile.fr",
-        "ip": "5.104.101.30",
-        "timestamp": "2022-05-27T16:55:41.804278733Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.dossierfacile.fr'",
-        "matcher-status": true,
-        "matched-line": null
-      },
-      {
-        "template": "technologies/tech-detect.yaml",
-        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/tech-detect.yaml",
-        "template-id": "tech-detect",
-        "info": {
-          "name": "Wappalyzer Technology Detection",
-          "author": [
-            "hakluke"
-          ],
-          "tags": [
-            "tech"
-          ],
-          "reference": null,
-          "severity": "info"
-        },
-        "matcher-name": "vue.js",
-        "type": "http",
-        "host": "https://www.dossierfacile.fr",
-        "matched-at": "https://www.dossierfacile.fr",
-        "ip": "5.104.101.30",
-        "timestamp": "2022-05-27T16:55:41.807772571Z",
+        "ip": "109.232.236.90",
+        "timestamp": "2022-05-28T07:13:57.92872667Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.dossierfacile.fr'",
         "matcher-status": true,
         "matched-line": null
@@ -3356,28 +2988,97 @@
         "host": "https://www.dossierfacile.fr",
         "matched-at": "https://www.dossierfacile.fr/data?get=prodServerGen",
         "extracted-results": [
-          "26G",
+          "16G",
+          "58G",
+          "82G",
+          "35G",
+          "69G",
+          "78G",
+          "22G",
           "72G",
           "11G",
-          "35G",
-          "99G",
-          "78G",
-          "20G",
-          "37G",
-          "10G",
-          "22G",
-          "27G",
           "43G",
-          "16G",
-          "82G",
-          "58G",
-          "48G",
+          "10G",
           "91G",
-          "69G"
+          "99G",
+          "26G",
+          "27G",
+          "20G",
+          "48G",
+          "37G"
         ],
-        "ip": "5.104.101.30",
-        "timestamp": "2022-05-27T16:55:49.330453673Z",
+        "ip": "109.232.236.90",
+        "timestamp": "2022-05-28T07:14:03.121655171Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.dossierfacile.fr/data?get=prodServerGen'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "technologies/waf-detect.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/technologies/waf-detect.yaml",
+        "template-id": "waf-detect",
+        "info": {
+          "name": "WAF Detection",
+          "author": [
+            "dwisiswant0",
+            "lu4nx"
+          ],
+          "tags": [
+            "waf",
+            "tech",
+            "misc"
+          ],
+          "description": "A web application firewall was detected.",
+          "reference": [
+            "https://github.com/ekultek/whatwaf"
+          ],
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "matcher-name": "securesphere",
+        "type": "http",
+        "host": "https://www.dossierfacile.fr",
+        "matched-at": "https://www.dossierfacile.fr/",
+        "ip": "109.232.236.90",
+        "timestamp": "2022-05-28T07:14:09.392408076Z",
+        "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: www.dossierfacile.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.dossierfacile.fr/'",
+        "matcher-status": true,
+        "matched-line": null
+      },
+      {
+        "template": "dns/dns-waf-detect.yaml",
+        "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/dns-waf-detect.yaml",
+        "template-id": "dns-waf-detect",
+        "info": {
+          "name": "DNS WAF Detection",
+          "author": [
+            "lu4nx"
+          ],
+          "tags": [
+            "tech",
+            "waf",
+            "dns"
+          ],
+          "description": "A DNS WAF was detected.",
+          "reference": null,
+          "severity": "info",
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "matcher-name": "cloudflare",
+        "type": "dns",
+        "host": "https://www.dossierfacile.fr",
+        "matched-at": "https://www.dossierfacile.fr",
+        "timestamp": "2022-05-28T07:14:21.116709898Z",
         "matcher-status": true,
         "matched-line": null
       }
@@ -3385,7 +3086,7 @@
     "lhr": {
       "requestedUrl": "https://www.dossierfacile.fr/blog",
       "finalUrl": "https://www.dossierfacile.fr/blog/",
-      "fetchTime": "2022-05-27T16:47:37.649Z",
+      "fetchTime": "2022-05-28T06:58:37.394Z",
       "runWarnings": [
         "The page may not be loading as expected because your test URL (https://www.dossierfacile.fr/blog) was redirected to https://www.dossierfacile.fr/blog/. Try testing the second URL directly."
       ],
@@ -3393,7 +3094,7 @@
         "performance": {
           "title": "Performance",
           "id": "performance",
-          "score": 0.1917034149169922
+          "score": 0.19176216125488282
         },
         "accessibility": {
           "title": "Accessibility",
@@ -3429,49 +3130,49 @@
           "description": "Collects all available metrics.",
           "score": null,
           "scoreDisplayMode": "informative",
-          "numericValue": 6510,
+          "numericValue": 6093,
           "numericUnit": "millisecond",
           "details": {
             "type": "debugdata",
             "items": [
               {
-                "firstContentfulPaint": 2425,
-                "firstMeaningfulPaint": 2425,
-                "largestContentfulPaint": 3472,
-                "firstCPUIdle": 6485,
-                "interactive": 6510,
-                "speedIndex": 5056,
+                "firstContentfulPaint": 3132,
+                "firstMeaningfulPaint": 3132,
+                "largestContentfulPaint": 6053,
+                "firstCPUIdle": 6093,
+                "interactive": 6093,
+                "speedIndex": 4288,
                 "estimatedInputLatency": 13,
-                "totalBlockingTime": 98,
-                "maxPotentialFID": 172,
-                "cumulativeLayoutShift": 0.35346920013427735,
+                "totalBlockingTime": 104,
+                "maxPotentialFID": 154,
+                "cumulativeLayoutShift": 0.3536087943183051,
                 "cumulativeLayoutShiftAllFrames": 0,
                 "observedTimeOrigin": 0,
-                "observedTimeOriginTs": 480220416,
+                "observedTimeOriginTs": 356312603,
                 "observedNavigationStart": 0,
-                "observedNavigationStartTs": 480220416,
-                "observedFirstPaint": 1362,
-                "observedFirstPaintTs": 481582681,
-                "observedFirstContentfulPaint": 1362,
-                "observedFirstContentfulPaintTs": 481582681,
-                "observedFirstMeaningfulPaint": 1362,
-                "observedFirstMeaningfulPaintTs": 481582681,
-                "observedLargestContentfulPaint": 1362,
-                "observedLargestContentfulPaintTs": 481582681,
-                "observedTraceEnd": 3044,
-                "observedTraceEndTs": 483264002,
-                "observedLoad": 1897,
-                "observedLoadTs": 482117085,
-                "observedDomContentLoaded": 1531,
-                "observedDomContentLoadedTs": 481751668,
-                "observedCumulativeLayoutShift": 0.35346920013427735,
+                "observedNavigationStartTs": 356312603,
+                "observedFirstPaint": 872,
+                "observedFirstPaintTs": 357184797,
+                "observedFirstContentfulPaint": 872,
+                "observedFirstContentfulPaintTs": 357184797,
+                "observedFirstMeaningfulPaint": 872,
+                "observedFirstMeaningfulPaintTs": 357184797,
+                "observedLargestContentfulPaint": 950,
+                "observedLargestContentfulPaintTs": 357262582,
+                "observedTraceEnd": 2256,
+                "observedTraceEndTs": 358568990,
+                "observedLoad": 1189,
+                "observedLoadTs": 357501607,
+                "observedDomContentLoaded": 967,
+                "observedDomContentLoadedTs": 357279903,
+                "observedCumulativeLayoutShift": 0.3536087943183051,
                 "observedCumulativeLayoutShiftAllFrames": 0,
-                "observedFirstVisualChange": 1360,
-                "observedFirstVisualChangeTs": 481580416,
-                "observedLastVisualChange": 3043,
-                "observedLastVisualChangeTs": 483263416,
-                "observedSpeedIndex": 1570,
-                "observedSpeedIndexTs": 481790061
+                "observedFirstVisualChange": 873,
+                "observedFirstVisualChangeTs": 357185603,
+                "observedLastVisualChange": 2256,
+                "observedLastVisualChangeTs": 358568603,
+                "observedSpeedIndex": 1038,
+                "observedSpeedIndexTs": 357350705
               },
               {
                 "lcpInvalidated": false
@@ -3493,19 +3194,19 @@
                 "numScripts": 8,
                 "numStylesheets": 4,
                 "numFonts": 6,
-                "numTasks": 930,
-                "numTasksOver10ms": 5,
+                "numTasks": 861,
+                "numTasksOver10ms": 3,
                 "numTasksOver25ms": 2,
-                "numTasksOver50ms": 2,
+                "numTasksOver50ms": 1,
                 "numTasksOver100ms": 0,
                 "numTasksOver500ms": 0,
-                "rtt": 1.3280000000000003,
-                "throughput": 22936659.884594586,
-                "maxRtt": 150.403,
-                "maxServerLatency": 31.792,
-                "totalByteWeight": 2664938,
-                "totalTaskTime": 462.7789999999991,
-                "mainDocumentTransferSize": 7589
+                "rtt": 5.784000000000001,
+                "throughput": 40803624.9265393,
+                "maxRtt": 83.554,
+                "maxServerLatency": 172.991,
+                "totalByteWeight": 2664630,
+                "totalTaskTime": 381.8249999999988,
+                "mainDocumentTransferSize": 7600
               }
             ]
           }
@@ -3532,11 +3233,7 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2022-08-08T12:34:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "B",
-      "cookiesCount": 1,
-      "trackersGrade": "C",
-      "trackersCount": 10,
-      "lighthouse_performance": 0.1917034149169922,
+      "lighthouse_performance": 0.19176216125488282,
       "lighthouse_performanceGrade": "E",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
