@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Fri, 27 May 2022 16:47:09",
+	"@generated": "Sat, 28 May 2022 06:58:14",
 	"site":[ 
 		{
 			"@name": "https://www.dossierfacile.fr",
@@ -1111,9 +1111,16 @@
 							"param": "",
 							"attack": "",
 							"evidence": "16777215"
+						},
+						{
+							"uri": "https://www.dossierfacile.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "33667356"
 						}
 					],
-					"count": "87",
+					"count": "88",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>51894208, which evaluates to: 1971-08-24 15:03:28</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -1290,7 +1297,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "99"
+					"sourceid": "98"
 				},
 				{
 					"pluginid": "10109",
