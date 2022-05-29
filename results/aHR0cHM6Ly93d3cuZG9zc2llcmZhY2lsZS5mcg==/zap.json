@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sat, 28 May 2022 06:58:14",
+	"@generated": "Sun, 29 May 2022 01:54:34",
 	"site":[ 
 		{
 			"@name": "https://www.dossierfacile.fr",
@@ -516,6 +516,13 @@
 							"param": "",
 							"attack": "",
 							"evidence": "51894208"
+						},
+						{
+							"uri": "https://www.dossierfacile.fr/css/app.8a4e6dfd.css",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1333333333"
 						},
 						{
 							"uri": "https://www.dossierfacile.fr/css/blog.4559a655.css",
@@ -1111,13 +1118,6 @@
 							"param": "",
 							"attack": "",
 							"evidence": "16777215"
-						},
-						{
-							"uri": "https://www.dossierfacile.fr/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "33667356"
 						}
 					],
 					"count": "88",
