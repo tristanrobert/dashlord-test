@@ -31,7 +31,7 @@ jobs:
       - id: dashlord-report
         uses: SocialGouv/dashlord-actions/report@tristanrobert/issue136
         with:
-          base-path: /dashlord
+          base-path: /dashlord-test
 
       # to save the generated report.json as artifact
       - uses: actions/upload-artifact@v2
