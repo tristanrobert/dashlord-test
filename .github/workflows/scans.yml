@@ -218,7 +218,7 @@ jobs:
           repositories: ${{ join(matrix.sites.repositories) }}
           output: scans/codescanalerts.json
 
-      - uses: SocialGouv/dashlord-actions/save@main
+      - uses: SocialGouv/dashlord-actions/save@tristanrobert/issue136
         with:
           url: ${{ matrix.sites.url }}
 
